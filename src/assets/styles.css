@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400&family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Limelight&family=Open+Sans:wght@300;400&family=Rubik+Moonrocks&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato' sans-serif;
+}
+
+.home-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.home-btn {
+  width: 150px;
+  height: 40px;
+}
+
+.game-title-container {
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title-container .logo {
+  font-family: 'Limelight', cursive;
+  font-size: 80px;
+  margin-bottom: auto;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  position: relative;
+}
+
+.instructions {
+  margin: 20px;
+}
+
+.user-guesses-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.number-wrap {
+  margin: 5px;
+}
+
+.confirmation-btns {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.feedback-count {
+  font-weight: 900;
+  color: 'purple';
+  padding-right: 5px;
+}
